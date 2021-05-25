@@ -1,0 +1,75 @@
+*{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+#contenedor{
+    width: 100%;}
+header{
+    height: 150px;
+    display: flex;
+    align-items: center;}
+header .logo { width: 30%;margin-left: 40px;}
+header .sedes { width: 70%;
+                text-align: center;    }
+header .sedes a{
+    text-decoration: none;
+    font-family: Tahoma;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    padding: 0 50px;}
+nav{
+    background-color: darkgreen;
+    height: 60px;
+    display: flex;
+    align-items: center;    }
+nav .menulista {
+    display: flex; margin-left: 40px;}
+nav .menulista li{
+    list-style: none;}
+nav .menulista a{
+    text-decoration: none;
+    font-family: Tahoma;
+    font-size: 16px;
+    color: white;
+    margin: 30px 82px;}
+.banner img{
+    width: 100%;}
+main{ display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px 0;
+    background-color: azure;}
+main h1, figcaption, p{ 
+    font-family: Tahoma;}
+main section{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;}
+main section figure{
+    width: 25%;
+    padding: 30px;
+    text-align: center;
+}
+main section figure img{
+    width: 45%;
+}
+main section figure figcaption{
+    font-weight:bold ;}    
+footer{
+    background-color: goldenrod;
+    padding: 40px;
+    display: flex;}
+footer .empresa{
+    padding-bottom: 20px;}
+footer .empresa p{
+    font-family: Tahoma;
+    font-size: 14px;
+    color: black;}
+footer .redes{
+    padding-left: 60%;
+}
+footer .iconosredes{
+    width: 30px;
+    margin: 5px}
